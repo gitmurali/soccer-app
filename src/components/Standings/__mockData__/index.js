@@ -1,0 +1,36 @@
+export const mockStandingsData = [
+	{
+		position: 1,
+		team: {
+			id: 65,
+			name: "Manchester City FC",
+			crestUrl: "https://crests.football-data.org/65.svg",
+		},
+		playedGames: 38,
+		form: "W,L,W,L,W",
+		won: 27,
+		draw: 5,
+		lost: 6,
+		points: 86,
+		goalsFor: 83,
+		goalsAgainst: 32,
+		goalDifference: 51,
+	},
+	{
+		position: 2,
+		team: {
+			id: 66,
+			name: "Manchester United FC",
+			crestUrl: "https://crests.football-data.org/66.svg",
+		},
+		playedGames: 38,
+		form: "W,D,L,L,W",
+		won: 21,
+		draw: 11,
+		lost: 6,
+		points: 74,
+		goalsFor: 73,
+		goalsAgainst: 44,
+		goalDifference: 29,
+	},
+];
