@@ -35,7 +35,6 @@ describe("Component:Standings", () => {
 
 	it("should render Standings table data", () => {
 		view();
-		screen.debug();
 		expect(screen.getByText('Manchester City FC')).toBeInTheDocument();
 		expect(screen.getByText('Manchester United FC')).toBeInTheDocument();
 	});
