@@ -16,6 +16,9 @@ Soccer app uses a few open source libraries to work properly:
 -   [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 -   [x] PWA Support
 
+## Note
+Logs appear when you are in development mode.
+
 ## Installation
 Install the dependencies and devDependencies and start the server.
 
