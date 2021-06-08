@@ -17,16 +17,14 @@ export const theme = createMuiTheme({
 });
 
 const withRoot = (Component: any) => {
-	const WithRoot = (props: object) => {
+	return (props: object) => {
 		return (
 			<ThemeProvider theme={theme}>
-				<CssBaseline />
+				<CssBaseline/>
 				<Component {...props} />
 			</ThemeProvider>
 		);
 	};
-
-	return WithRoot;
 };
 
 export default withRoot;
