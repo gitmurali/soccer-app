@@ -20,6 +20,7 @@ Soccer app uses a few open source libraries to work properly:
 Install the dependencies and devDependencies and start the server.
 
 ```sh
+git clone https://github.com/gitmurali/soccer-app.git
 cd soccer-appp
 yarn install
 yarn start

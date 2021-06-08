@@ -34,3 +34,77 @@ export const mockStandingsData = [
 		goalDifference: 29,
 	},
 ];
+
+export const mockHomeStandingsData = [
+	{
+		position: 1,
+		team: {
+			id: 548,
+			name: "AS Monaco FC",
+			crestUrl: "https://crests.football-data.org/548.svg",
+		},
+		playedGames: 19,
+		form: "",
+		won: 12,
+		draw: 5,
+		lost: 2,
+		points: 41,
+		goalsFor: 43,
+		goalsAgainst: 21,
+		goalDifference: 22,
+	},
+	{
+		position: 2,
+		team: {
+			id: 524,
+			name: "Paris Saint-Germain FC",
+			crestUrl: "https://crests.football-data.org/524.svg",
+		},
+		playedGames: 19,
+		form: "",
+		won: 13,
+		draw: 1,
+		lost: 5,
+		points: 40,
+		goalsFor: 44,
+		goalsAgainst: 14,
+		goalDifference: 30,
+	},
+];
+
+export const mockAwayStandingsData = [
+	{
+		position: 1,
+		team: {
+			id: 65,
+			name: "Manchester City FC",
+			crestUrl: "https://crests.football-data.org/65.svg",
+		},
+		playedGames: 19,
+		form: "",
+		won: 14,
+		draw: 3,
+		lost: 2,
+		points: 45,
+		goalsFor: 40,
+		goalsAgainst: 15,
+		goalDifference: 25,
+	},
+	{
+		position: 2,
+		team: {
+			id: 66,
+			name: "Manchester United FC",
+			crestUrl: "https://crests.football-data.org/66.svg",
+		},
+		playedGames: 19,
+		form: "",
+		won: 12,
+		draw: 7,
+		lost: 0,
+		points: 43,
+		goalsFor: 35,
+		goalsAgainst: 16,
+		goalDifference: 19,
+	},
+];
