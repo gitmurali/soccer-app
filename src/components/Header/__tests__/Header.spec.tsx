@@ -50,17 +50,6 @@ describe("Component:Header", () => {
 		expect(screen.queryByText("Total")).not.toBeDisabled();
 	});
 
-	xit("should handle on change on league select box", () => {
-		view();
-		expect(screen.getByTestId("select-league")).not.toBeDisabled();
-		fireEvent.change(screen.getByTestId("select-league"), {
-			target: {
-				value: "2019",
-			},
-		});
-		expect(props.setLeague).toHaveBeenCalled();
-	});
-
 	describe("League type clicks", () => {
 		it("should click on home and call setType function", () => {
 			view();

@@ -45,6 +45,7 @@ describe("Component:SoccerStandingsPage", () => {
 	it("renders SoccerStandingsPage page with data provided.", () => {
 		view();
 		expect(screen.getByTestId("SoccerStandingsPage")).toBeInTheDocument();
+		expect(screen.getAllByRole('button')).toHaveLength(4);
 	});
 
 	it("should display heading", () => {
@@ -60,12 +61,12 @@ describe("Component:SoccerStandingsPage", () => {
 	it("should click on home button", async () => {
 		view();
 		fireEvent.click(screen.getByText("Home"));
-		expect(screen.getByText("AS Monaco FC")).toBeInTheDocument();
+		expect(screen.getByText("AS Monaco FC")).toBeDefined();
 	});
 
 	it("should click on away button", async () => {
 		view();
 		fireEvent.click(screen.getByText("Away"));
-		expect(screen.getByText("Manchester City FC")).toBeInTheDocument();
+		expect(screen.getByText("Manchester City FC")).toBeDefined()
 	});
 });
