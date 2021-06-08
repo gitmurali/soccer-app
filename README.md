@@ -1,6 +1,8 @@
 # Soccer Standings app
 Soccer standings app with most wins this season
 
+![Soccer app](https://raw.githubusercontent.com/gitmurali/soccer-app/main/src/resources/soccer.png)
+
 ## Tech
 Soccer app uses a few open source libraries to work properly:
 -   [x] [Material-UI](https://github.com/mui-org/material-ui)
