@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { WithWidth } from "@material-ui/core/withWidth";
 
 import { RouteComponentProps, Router } from "react-router-dom";

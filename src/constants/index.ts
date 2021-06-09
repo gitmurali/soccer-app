@@ -1,7 +1,5 @@
-interface StandingsData {
-	total: number;
-	home: number;
-	away: number;
+interface StandingsData  {
+	[key: string]:  number;
 }
 
 interface League {
@@ -23,7 +21,7 @@ export const LEAGUE_DATA: LeagueData = Object.freeze({
 	],
 });
 
-export const standingsData: any = {
+export const standingsData: StandingsData = {
 	total: 0,
 	home: 1,
 	away: 2,

@@ -21,6 +21,9 @@ const defaultState: SoccerStandingsReducerType = {
 	error: undefined,
 };
 
+/**
+ * soccerStandings - A reducer function to update store
+ */
 export const soccerStandings = createReducer<SoccerStandingsReducerType>(
 	defaultState,
 	{

@@ -3,6 +3,9 @@ import { Route } from "react-router";
 import SoccerStandingsPage from "../pages/SoccerStandings/container";
 import useStyles from "App/styles";
 
+/**
+ * Routes - render <Routes />
+ */
 const Routes = () => {
 	const classes = useStyles();
 	return (

@@ -11,6 +11,7 @@ describe("saga:SoccerStandings", () => {
 			const fetchApiSpy = jest
 				.spyOn(api, "fetchApi")
 				.mockImplementation((): any => mockData);
+			// let the saga run and see what it collects in dispatched
 			await runSaga(
 				{
 					dispatch: (action) => dispatched.push(action),

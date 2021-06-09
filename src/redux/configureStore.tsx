@@ -16,6 +16,7 @@ const persistConfig = {
 	storage,
 };
 
+// logs will be displayed in dev mode only to make debugging easier.
 const logger = createLogger();
 const history = createBrowserHistory();
 

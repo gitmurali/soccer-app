@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext } from "react";
 import { SoccerStanding, SoccerStandingsReducerType } from "../model/model";
 
 export interface SoccerContextInterface {
@@ -10,6 +10,9 @@ export interface SoccerContextInterface {
 	tableData?: Array<SoccerStanding>;
 }
 
-export const SoccerContext = React.createContext<
-	SoccerContextInterface | undefined
->(undefined);
+/**
+ * Soccer Context for header and standings table
+ */
+export const SoccerContext = createContext<SoccerContextInterface | undefined>(
+	undefined
+);

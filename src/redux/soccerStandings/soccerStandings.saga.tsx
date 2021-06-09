@@ -1,11 +1,11 @@
-import { put, takeLatest, fork, call, ForkEffect } from "redux-saga/effects";
+import { put, takeLatest, fork, call } from "redux-saga/effects";
 
 import { fetchApi, MethodType } from "services/Api";
 import { ActionType, Payload, Standings } from "model/model";
 
 /**
  * getSoccerStandings is a generator function to make a api call and dispatch success/failure
- * @param payload - payload
+ * @param {string} payload - payload
  * @returns ScoreStandingsData: Promise<SoccerStandingsReducerType|*>
  * */
 export function* getSoccerStandings({ payload }: Payload): any {

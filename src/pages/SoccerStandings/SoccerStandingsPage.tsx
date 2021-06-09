@@ -15,7 +15,7 @@ type Props = {
 
 /**
  * Renders a <SoccerStandingsPage /> page
- * @param  soccer - get the soccer object
+ * @param  soccer - get the soccer data
  * @param  fetchSoccerStandings - fetch soccer standings
  */
 const SoccerStandingsPage: FC<Props> = ({

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { ReactElement } from "react";
 import { CssBaseline } from "@material-ui/core";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
@@ -17,7 +17,7 @@ export const theme = createMuiTheme({
 });
 
 const withRoot = (Component: any) => {
-	return (props: object) => {
+	return (props: object): ReactElement => {
 		return (
 			<ThemeProvider theme={theme}>
 				<CssBaseline/>
